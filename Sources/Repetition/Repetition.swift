@@ -1,4 +1,3 @@
-/// An operation paired with a multiplicity constraint; execution belongs to its adapter.
 public struct Repetition<Bounds, Operation: ~Copyable>: ~Copyable {
     public let bounds: Bounds
     public let operation: Operation
